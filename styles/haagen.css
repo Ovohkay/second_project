@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.FirstHeader{
+    height: 8vh;
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+}
+.box1 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.box1 a{
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.box2{
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.box2 p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.Secondheader{
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+    background-image: url(../img/haagen_Img/header\ bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ThirdHeader{
+    position: sticky;
+    top:0;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99999;
+}
+.txt1{
+    display: flex;
+    margin-left: 130px;
+}
+.txt2{
+    display: flex;
+    margin-right: 130px;
+}
+.txt1 p{
+    margin-left: 40px;
+    cursor: pointer;
+}
+.txt2 p{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.txt2 img{
+    height: 15px;
+    width: 15px;
+}
+main{
+    display: grid;
+    grid-template-rows: 58vh 90vh 60vh;
+    color: white;
+}
+.hero{
+    /* height: 60vh; */
+
+    background-image: url(../img/haagen_Img/hero.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Bigtxt h1{
+    box-shadow: (0 0 15px rgba(0,0,0,0.8));
+    line-height: 1.2;
+    font-size: 5.2rem;
+    margin-bottom: 20px;
+}
+.Bigtxt h2{
+    font-size: 3rem;
+}
+.LeftRightHolder{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.left{
+    background-image: url(../img/haagen_Img/left.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left h1{
+    font-size: 2.6rem;
+    box-shadow: (0 0 15px rgba(0,0,0,1));
+}
+.right h1{
+    font-size: 2.6rem;
+    box-shadow: (0 0 15px rgba(0,0,0,1));
+}
+.link{
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 15px 30px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.right{
+    background-image: url(../img/haagen_Img/right.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.last{
+  background-image: url(../img/haagen_Img/last.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+footer{
+    height: 20vh;
+    background-color: white;
+    background-image: url(../img/haagen_Img/header\ bg.svg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.Fnav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Fnav ul{
+    display: flex;
+}
+.Fnav li{
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.Fnav img{
+    height: 30px;
+}
+.copyright{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size: 16px;
+    font-family: sans-serif;    
+}
+h
+header{
+    /* display: grid;
+    grid-template-rows: 10vh 15vh; */
+    position: relative;
+ }
+ .topHeader{
+     height: 10vh;
+     background-color: #DFFFF9;
+     display: flex;
+ }
+ .topHeaderRight{
+     display: flex;
+     margin-left: 100px;
+     align-items: center;
+ }
+ .topHeaderRight p{
+     font-size: 16px;
+     cursor: pointer;
+     margin-right: 20px;
+     font-weight: 600;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .topHeaderLeft{
+     margin-left: 250px;
+     display: flex;
+     align-items: center;
+ }
+ .topHeaderLeft img{
+     height: 30px;
+     margin-left: 30px;
+     cursor: pointer;
+ }
+ .outshine{
+     height: 50px;
+     cursor: pointer;
+ }
+ .MidHeader{
+     font-size: 16px;
+     height: 15vh;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: sticky;
+     top: 0px;
+     z-index: 999;
+ }
+ .MidHeaderRight{
+     margin-left: 100px;
+     height: 100%;
+     width: 30vw;
+     display: flex;
+     align-items: center;
+ }
+ .MidHeaderRight ul{
+     visibility: hidden;
+     position: relative;
+     top: 100px;
+     right: 50px;
+     width: 20vw;
+     background-color: brown;
+     list-style: none;
+     z-index: 100;
+ }
+ .MidHeaderRight ul:hover{
+     visibility: visible;
+ }
+ .MidHeaderRight ul li{
+     font-size: 20px;
+     color: black;
+     margin-bottom: 10px;
+ }
+ .MidHeaderRight a{
+     text-decoration: none;
+     color: black;
+     font-weight: 600;
+ }
+ .MidHeaderRight p{
+     cursor: pointer;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-right: 30px;
+     font-weight: 600;
+ }
+ .midHeaderMid img{
+     height: 170px;
+     position: relative;
+     top: 30px;
+     cursor: pointer;
+ }
+ .midHeaderLeft{
+     margin-right: 100px;
+     height: 100%;
+     width: 30vw;
+     /* background-color: red; */
+     display: flex;
+     align-items: center;  
+     justify-content: flex-end;
+ }
+ .midHeaderLeft ul{
+     list-style: none;
+     display: flex;
+   
+ }
+ .midHeaderLeft li{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 30px;
+     font-weight: 600;
+ }
+ .midHeaderLeft a{
+     text-decoration: none;
+     color: black;
+ }
+ .midHeaderLeft li img{
+     height: 20px;
+ }
+
+ .main{
+    /* height: 100%; */
+    display: grid;
+    /* grid-template-rows: 90vh 100%; */
+ }
+ .top{
+    height: 70vh;
+    background-image: url(../img/cq5dam.web.1280.1280.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+ }
+ .top h1{
+    font-size: 3.2rem;
+    text-shadow: rgba(0px, 10px, 10px, 0.9);
+ }
+ .bottom{
+    margin-top: 50px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(4, 60vh);
+    gap: 20px;
+ }
+ .row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 30px;
+
+ }
+ .item{
+    display: grid;
+    grid-template-rows: 45vh 10vh;
+    background-color: white;
+    text-align: center;
+    color: #655850;
+    transition: all ease .2s;
+    
+ }
+ .item:hover{
+    transform: scale(1.1);
+ }
+ .pic img{
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+    cursor: pointer;
+    transition: all ease .2s;
+ }
+ 
+ .item h2{
+    font-family: 'Segoe UI';
+    cursor: pointer;
+ }
+ .nav{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box{
+    border: 2px solid grey;
+    height: 5vh;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+ }
+ .box img{
+    height: 30px;
+ }
+ .nav p{
+    margin-left: 20px;
+    cursor: pointer;
+ }
+ .nav p:nth-last-child(2){
+    margin-right: 20px;
+ }
+
+ footer{
+    height: 30vh;
+    background-color: #DFFFF9;
+    display: grid;
+    grid-template-columns: 20vw 1fr 20vw;
+
+}
+.footer1 img{
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footerNav{
+    margin-top: 50px;
+    height: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 16xp; */
+    font-weight: 600;
+}
+.footerNav ul{
+    display: flex;
+}
+.footerNav li{
+    font-size: 16px;
+    color: #655850;
+    margin-left: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+.copyright{
+    height: 10vh;
+}
+.footer3 img{
+    height: 40px;
+    /* width: 20px; */
+    margin-top: 50px;
+    margin-left: 200px;
+}
